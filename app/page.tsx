@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Link from "next/link";
 import {
   ArrowRightIcon,
@@ -109,6 +110,9 @@ export default function Home() {
       <footer className="border-t px-4 py-6 text-center text-xs text-muted-foreground sm:px-8">
         &copy; {new Date().getFullYear()} Scrumfort CMS. All rights reserved.
       </footer>
+
+       {/* TEMPORARY: local tracker.js sanity test — remove after verifying */}
+      {/* <script src="https://s-fort-server.vercel.app/api/v1/traffic/tracker.js" /> */}
     </div>
   );
 }
