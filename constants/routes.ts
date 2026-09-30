@@ -1,0 +1,16 @@
+export const ROUTES = {
+  LOGIN: "/login",
+  FORGOT_PASSWORD: "/forgot-password",
+  DASHBOARD: "/dashboard",
+  DASHBOARD_OVERVIEW: "/dashboard/overview",
+  DASHBOARD_BLOGS: "/dashboard/blogs",
+  DASHBOARD_PORTFOLIO: "/dashboard/portfolio",
+  DASHBOARD_CATEGORIES: "/dashboard/categories",
+  DASHBOARD_NEWSLETTER: "/dashboard/newsletter",
+  DASHBOARD_ACTIVITY: "/dashboard/activity",
+  DASHBOARD_MEMBERS: "/dashboard/members",
+  DASHBOARD_EMPLOYEES: "/dashboard/employees",
+  DASHBOARD_CONNECTIONS: "/dashboard/connections",
+  DASHBOARD_SEARCH_PERFORMANCE: "/dashboard/search-performance",
+  DASHBOARD_VISITORS: "/dashboard/visitors",
+} as const;
